@@ -1,0 +1,32 @@
+
+h1,h3{
+    color: rgb(255,183,0);
+}
+#faqs-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 8rem;
+    z-index: -2;
+}
+.faqs{
+background-color: rgba(0, 0, 0, 0.281);
+border-radius: 1rem;
+width: 60vw;
+
+padding: 3rem;
+}
+
+.faqs-h{
+    margin: 1rem auto;
+    text-align: center;
+    border-bottom: 4px solid white;
+    width: 6rem;
+}
+.faqs h3{
+    margin:1rem;
+}
+p{
+    color: #fff;
+}

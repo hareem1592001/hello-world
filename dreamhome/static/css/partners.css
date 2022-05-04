@@ -1,0 +1,43 @@
+
+h1{
+    color: rgb(255,183,0);
+}
+#partner-container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    margin-top: 3rem;
+}
+.partner{
+background-color: rgba(0, 0, 0, 0.281);
+border-radius: 1rem;
+width: 70vw;
+padding-bottom: 3rem;
+
+}
+
+.partner-h{
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 4px solid white;
+    width: 11rem;
+}
+#partner-items img{
+    padding: 0;
+}
+
+@media (max-width:753px) and (min-width:550px){
+    #partner-container{
+        margin-top: 6rem;
+    }
+}
+@media (max-width:550px) and (min-width:0px){
+    #partner-container{
+        margin-top: 10rem;
+    }
+    .skype{
+        width: 30vw;
+    }
+}

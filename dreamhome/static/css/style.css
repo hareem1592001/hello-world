@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+
+body{
+	font-family:georgia;
+}
+
+
+#container{
+	background:url('../images/bg.jpg')no-repeat center center/cover;
+	min-height:100vh;
+	overflow:hidden;
+	background-blend-mode:overlay;
+}
+.wave{
+	position:absolute;
+	width:100%;
+	bottom: 60px;
+	color:#fff;
+	opacity:1;
+}
+
+header{
+position:fixed;
+	display:flex;
+	width:100%;
+	top:0;
+	left:0;
+	padding:25px 80px;
+	 background:linear-gradient(to top,transparent,rgba(0,0,0,0.6)); 
+}
+header .logodiv{
+	color:white;
+	position: relative;
+	font-size:10px;
+	font-weight:700;
+	border-radius: 50%;
+	padding: 14px;
+}
+
+.logodiv h1{
+	-webkit-text-stroke: 0.6px #fff;
+	color:transparent;
+}
+header ul{
+	display:flex;
+	
+}
+header ul li{
+	list-style:none;
+	margin-left:20px;
+}
+header ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-weight:300;
+	letter-spacing:1px;
+}
+header ul li a:hover{
+	color:#ffb700;
+	font-size:20px;
+	font-weight:200;
+}
+
+
+#content{
+	max-width:55%;
+	padding:200px 80px 0;
+	color:#fff;
+}
+#cotent h1{
+	font-size:50px;
+}
+#cotent p{
+	font-size:30px;
+	font-weight:300;
+	padding:25px 0;
+}
+.btn{
+	margin:15px;
+	background-color:#ffb700;
+	padding:8px;
+	border-radius:50px;
+}
+#content a:hover{
+	font-size:15px;
+	color:#eb5e0b;
+}
+#content a{
+text-decoration:none;
+color:#fff;
+}
+ #partners{
+	width:100%;
+	background-color:#fff;
+	position:absolute;
+	bottom:0px;
+
+}
+#partners h3{
+	font-size:25px;
+	
+}
+#partners hr{
+	font-size:25px;
+	border:none;
+	height:5px;
+	width:170px;
+	background-color:orange;
+}
+
+#partner-items img{
+	height:100px;
+	margin-left:70px;
+	margin-top:20px;
+	padding:10px;
+border:1px solid #cacaca;
+border-radius:20px;
+box-shadow:0 5px 0 #cacaca;
+}
+/* background resposiveness */
+@media (min-width:1024px){
+	nav{
+		position: absolute;
+		right: 3rem;
+	}
+}
+@media (max-width:1075px) and (min-width:1024px){
+		header ul{
+			margin-left:300px;
+		}
+}
+
+@media (min-width:768px) and (max-width:1024px){
+	header ul{
+		margin-left:100px;
+	}
+}
+@media (min-width:500px) and (max-width:768px){
+	header ul{
+		margin-left:-30px;
+	}
+}
+
+@media (max-width:500px) and (min-width:0px){
+	header ul{
+		margin-left: -60px;
+		flex-wrap: wrap;
+	}
+}
+@media (min-width:468px) and (max-width:768px){
+	header{
+		flex-direction: column;
+	}
+	
+}
+@media (max-width:468px) and (min-width:350px){
+	header{
+		flex-direction: column;
+	}
+}
+@media (max-width:350px) and (min-width:0px){
+	header ul{
+		display: none;
+	}
+}
+

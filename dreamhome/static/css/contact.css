@@ -1,0 +1,131 @@
+
+h1{
+    color: rgb(255,183,0);
+}
+#contact-container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    margin-top: 4rem;
+}
+.contact{
+background-color: rgba(0, 0, 0, 0.281);
+border-radius: 1rem;
+width: 60vw;
+
+padding: 3rem;
+}
+
+.contact-h{
+    margin: 1rem auto;
+    text-align: center;
+    border-bottom: 4px solid white;
+    width: 8rem;
+}
+.contact-form{
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.contact-form div{
+    border-bottom: 2px solid #fff;
+}
+.contact-form input,textarea{
+ 
+    background: none;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    color: #fff;
+  text-align: center;
+  margin: 1rem 0.3rem;
+}
+textarea{
+   
+    margin-bottom: -1rem;
+}
+button{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: rgb(255,183,0);
+    border: none;
+}
+button:hover{
+    opacity: 0.5;
+}
+::placeholder{
+    color: #fff;
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .contact {
+        padding: 1rem;}
+        .contact-form {
+            font-size: 1rem;
+        }
+        .contact-form input, textarea {
+            font-size: 1rem;
+        }
+        button {
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+}
+
+
+@media (min-width:468px) and (max-width:768px){
+    
+    .contact {
+        padding: 0.6rem;
+    }
+        .contact-form {
+            font-size: 1rem;
+        }
+        .contact-form input, textarea {
+            font-size: 1rem;
+        }
+        button {
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+}
+@media (max-width:468px) and (min-width:350px){
+   
+    .contact {
+        padding: 1rem;
+    }
+        .contact-form {
+            font-size: 1rem;
+        }
+        .contact-form input, textarea {
+            font-size: 1rem;
+        }
+        button {
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+}
+@media (max-width:360px) and (min-width:0px){
+    
+    .contact {
+        padding: 0.7rem;
+    }
+        .contact-form {
+            font-size: 0.7rem;
+        }
+        .contact-form input, textarea {
+            font-size: 0.7rem;
+        }
+        button {
+            margin-top: 1rem;
+            font-size: 0.7rem;
+        }
+}

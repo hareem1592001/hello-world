@@ -1,0 +1,46 @@
+.dh-img{
+    height: 80vh;
+    width: 90vw;
+   margin: 5rem 3rem;
+   border-radius: 2rem;
+}
+.dh-items{
+    display: flex;
+    justify-content: space-around;
+}
+.dhcont{
+    width: 45vw;
+    color: white;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+.dhcont h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.dhcont h1,h3{
+    text-align: center;
+}
+.dhcont1{
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+}
+.dh-imgs{
+position: absolute;
+top: 8rem;
+right:5rem;    
+display: flex;
+flex-direction: column;
+}
+.dh-imgs img{
+    height: 100px;
+    width: 100px;
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+.dh-imgs img:hover{
+transform: translateX(-20px);
+}

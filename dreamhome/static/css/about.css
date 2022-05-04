@@ -1,0 +1,41 @@
+
+h1{
+    color: rgb(255,183,0);
+}
+#about-container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    margin-top: 3rem;
+}
+.about{
+background-color: rgba(0, 0, 0, 0.281);
+border-radius: 1rem;
+width: 60vw;
+padding: 1.5rem;
+}
+
+.about-h{
+    margin: 1rem auto;
+    text-align: center;
+    border-bottom: 4px solid white;
+    width: 8rem;
+}
+p{
+    color: #fff;
+}
+
+
+
+@media (max-width:555px) and (min-width:471px){
+    #about-container{
+        margin-top: 8rem;
+    }
+}
+@media (max-width:471px) and (min-width:0px){
+    #about-container{
+        margin-top: 13rem;
+    }
+}
+
